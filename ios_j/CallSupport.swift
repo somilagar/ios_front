@@ -1,23 +1,15 @@
 //
-//  SignUpVC.swift
+//  CallSupport.swift
 //  ios_j
 //
 //  Created by Somil agarwal on 04/12/15.
 //  Copyright © 2015 Goeazy. All rights reserved.
 //
 
-
-
 import Foundation
-
-
-class SignUpVC: UIViewController{
+class CallSupport: UIViewController{
+ 
     
     
     
-    
-   // @IBOutlet var EnterName: UITextField!
 }
-
-    
-

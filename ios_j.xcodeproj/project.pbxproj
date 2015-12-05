@@ -15,9 +15,12 @@
 		802F65781C0EE09D00DFE4B3 /* BookRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802F65771C0EE09D00DFE4B3 /* BookRequestViewController.swift */; };
 		80CB63911C10BBC700191AA0 /* MyBookingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CB63901C10BBC700191AA0 /* MyBookingsVC.swift */; };
 		80CB63931C10D01900191AA0 /* RateCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CB63921C10D01900191AA0 /* RateCardVC.swift */; };
-		80CB63961C10EFA300191AA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80CB63941C10EFA300191AA0 /* Main.storyboard */; };
 		80CB63981C10F20400191AA0 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CB63971C10F20400191AA0 /* FirstVC.swift */; };
 		80CB639A1C10F92600191AA0 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CB63991C10F92600191AA0 /* SignUpVC.swift */; };
+		80CB63A01C11CB6100191AA0 /* ForgotPassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CB639F1C11CB6100191AA0 /* ForgotPassVC.swift */; };
+		80CB63A21C11D00400191AA0 /* CallSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CB63A11C11D00400191AA0 /* CallSupport.swift */; };
+		80CB63A41C11F06B00191AA0 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CB63A31C11F06B00191AA0 /* ProfileVC.swift */; };
+		80CB63AA1C12735A00191AA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80CB63A91C12735A00191AA0 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,9 +60,12 @@
 		802F65771C0EE09D00DFE4B3 /* BookRequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookRequestViewController.swift; sourceTree = "<group>"; };
 		80CB63901C10BBC700191AA0 /* MyBookingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyBookingsVC.swift; sourceTree = "<group>"; };
 		80CB63921C10D01900191AA0 /* RateCardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateCardVC.swift; sourceTree = "<group>"; };
-		80CB63951C10EFA300191AA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80CB63971C10F20400191AA0 /* FirstVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstVC.swift; path = ../FirstVC.swift; sourceTree = "<group>"; };
 		80CB63991C10F92600191AA0 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		80CB639F1C11CB6100191AA0 /* ForgotPassVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ForgotPassVC.swift; path = ../ForgotPassVC.swift; sourceTree = "<group>"; };
+		80CB63A11C11D00400191AA0 /* CallSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallSupport.swift; sourceTree = "<group>"; };
+		80CB63A31C11F06B00191AA0 /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		80CB63A91C12735A00191AA0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +107,13 @@
 			isa = PBXGroup;
 			children = (
 				80CB63971C10F20400191AA0 /* FirstVC.swift */,
+				80CB63A11C11D00400191AA0 /* CallSupport.swift */,
 				802F656F1C0EC1C400DFE4B3 /* AppDelegate.swift */,
 				802F65771C0EE09D00DFE4B3 /* BookRequestViewController.swift */,
-				80CB63941C10EFA300191AA0 /* Main.storyboard */,
+				80CB63A31C11F06B00191AA0 /* ProfileVC.swift */,
 				80CB63991C10F92600191AA0 /* SignUpVC.swift */,
+				80CB63A91C12735A00191AA0 /* Main.storyboard */,
+				80CB639F1C11CB6100191AA0 /* ForgotPassVC.swift */,
 				80CB63921C10D01900191AA0 /* RateCardVC.swift */,
 				80CB63901C10BBC700191AA0 /* MyBookingsVC.swift */,
 				802F65711C0ED80300DFE4B3 /* BackVC.swift */,
@@ -202,7 +211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80CB63961C10EFA300191AA0 /* Main.storyboard in Resources */,
+				80CB63AA1C12735A00191AA0 /* Main.storyboard in Resources */,
 				802F64ED1C0E955600DFE4B3 /* LaunchScreen.storyboard in Resources */,
 				802F64EA1C0E955600DFE4B3 /* Assets.xcassets in Resources */,
 			);
@@ -225,10 +234,13 @@
 				80CB639A1C10F92600191AA0 /* SignUpVC.swift in Sources */,
 				80CB63911C10BBC700191AA0 /* MyBookingsVC.swift in Sources */,
 				802F65781C0EE09D00DFE4B3 /* BookRequestViewController.swift in Sources */,
+				80CB63A21C11D00400191AA0 /* CallSupport.swift in Sources */,
 				802F65721C0ED80300DFE4B3 /* BackVC.swift in Sources */,
 				80CB63981C10F20400191AA0 /* FirstVC.swift in Sources */,
 				802F65701C0EC1C400DFE4B3 /* AppDelegate.swift in Sources */,
+				80CB63A01C11CB6100191AA0 /* ForgotPassVC.swift in Sources */,
 				802F65761C0EDC4300DFE4B3 /* SWRevealViewController.m in Sources */,
+				80CB63A41C11F06B00191AA0 /* ProfileVC.swift in Sources */,
 				80CB63931C10D01900191AA0 /* RateCardVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,14 +269,6 @@
 				802F64EC1C0E955600DFE4B3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		80CB63941C10EFA300191AA0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				80CB63951C10EFA300191AA0 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
