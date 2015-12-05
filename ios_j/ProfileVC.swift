@@ -13,12 +13,13 @@ class ProfileVC: UIViewController{
     
     
     @IBOutlet var ProfileMenu: UIBarButtonItem!
+    //@IBOutlet var ProfileMenu: UIBarButtonItem!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        ProfileMenu.target = self.revealViewController()
-       ProfileMenu.action = Selector("revealToggle:")
+       ProfileMenu.target = self.revealViewController()
+      ProfileMenu.action = Selector("revealToggle:")
         
         
         self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
